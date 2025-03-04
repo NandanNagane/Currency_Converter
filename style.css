@@ -1,0 +1,86 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:radial-gradient( at -10% 51.2%, rgb(255, 124, 0) 10%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 20.9%, rgb(255, 163, 77) 35.4%, rgb(19, 30, 37) 70.5%, rgb(19, 30, 37) 1%);
+}
+.container{
+    background-color: white;
+    width: 50vh;
+    min-height: 40vh;
+    border-radius: 10%;
+}
+
+form{
+    margin:2rem 0 1rem 0;
+    padding: 2rem;
+}
+h1{
+    margin-bottom: 1rem;
+}
+form select,button,input{
+
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+   
+}
+form input{
+    font-size: 1rem;
+    height: 2.5rem;
+    padding-left: 0.5rem;
+    border: lightgray 2px solid;
+}
+
+
+.dropdown{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dropdown i{
+    font-size: 1.5rem;
+    margin-top:1rem;
+}
+.select_container{
+    border-radius: 0.75rem;
+    border: lightgray 2px solid;
+    display: flex;
+    width: 6rem;
+    
+}
+.select_container select{
+    font-size: 1rem;
+    width:4rem;
+    
+}
+.select_container img{
+    max-width: 2rem;
+}
+
+#msg{
+  
+    margin: 2rem 0 2rem 0;
+  
+}
+#get{
+    font-size: 1.2rem;
+    color: white;
+    height: 3rem;
+    background-color: rgb(191, 101, 116);
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#get:active{
+    background-color: black;
+}
